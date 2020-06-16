@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &565929027
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4077274759220167947}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 29.463997, y: 11.539856, z: 0.508}
+  m_Center: {x: 0, y: 0.0009765625, z: 0.254}
+--- !u!114 &565929026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4077274759220167947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02db1f0a158b5741bf3e4edb68274d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PickupMethod: 1
+  m_DefaultItem: Chocolate
+  m_DefaultAmount: 1
+  m_OnDestroySound: {fileID: 0}
+  m_OnDestroyVolume: 0.5
+--- !u!1001 &5455142128037616642
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_Name
+      value: Hershey's Chocolate Bar drop
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.296593
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.691
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.72684824
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6867981
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -93.245995
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.012586799
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.012586799
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.012586799
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f1e91ebccd8313a4ba0c36f1f1e4251b, type: 3}
+--- !u!1 &4077274759220167947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: f1e91ebccd8313a4ba0c36f1f1e4251b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5455142128037616642}
+  m_PrefabAsset: {fileID: 0}
